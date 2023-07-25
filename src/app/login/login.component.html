@@ -1,0 +1,17 @@
+<html>
+<body>
+
+<h1>Welcome to project <b>X</b></h1>
+<h2>Enter your secret Id and password...</h2>
+<hr>
+<div>
+    <h3>ID:</h3>
+    <input [(ngModel)]="ID" type="text" placeholder="Enter secret ID" name="id">
+    <h3>Password:</h3>
+    <input [(ngModel)]="password" type="password" placeholder="Enter password" name="pass">
+    <br><br>
+    <button (click)="logHimIn()">Login</button>
+</div>
+<hr>
+</body>
+</html>
