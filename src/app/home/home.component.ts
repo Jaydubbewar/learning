@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,11 +9,11 @@ import { Router } from '@angular/router';
 export class HomeComponent {
 
   constructor(private router: Router){}
-
+  bool = false
 
   text: String = "This is project X"
-  alerttext : String = "Project started"
+
   on(){
-  alert(this.alerttext)
+    this.bool = this.bool ? false : true
   }
 }
