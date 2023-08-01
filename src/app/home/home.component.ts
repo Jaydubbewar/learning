@@ -10,10 +10,13 @@ export class HomeComponent {
 
   constructor(private router: Router){}
   bool = false
-
   text: String = "This is project X"
 
   on(){
-    this.bool = this.bool ? false : true
+    this.bool =  true
+    console.log('in on')    
+  }
+  togBool(){
+    this.bool = false
   }
 }

@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { OverlayComponent } from './overlay/overlay.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CollapseComponent } from './collapse/collapse.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LoginComponent,
-    OverlayComponent
+    OverlayComponent,
+    CollapseComponent
   ],
   imports: [
     BrowserModule,

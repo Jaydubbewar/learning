@@ -1,0 +1,10 @@
+.content{
+    max-width: 1000px;
+    max-height: 200px;
+    background-color: darkgrey;
+    padding: 10px;
+    border-color: azure;
+}
+.right{
+    text-align: right;
+}

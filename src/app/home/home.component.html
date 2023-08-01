@@ -1,4 +1,9 @@
+
 <h1>{{text}}</h1>
-<h3>Click below button to to read...</h3>
+<app-collapse></app-collapse>
+<h3>Click below button to read...</h3>
  <button (click)="on()">Boot project</button>
- <app-overlay [wow]="bool"></app-overlay>
+ <p>bool-{{bool}}</p>
+ 
+ <app-overlay [wow]="bool" (toggle)="togBool()"></app-overlay>
+ 
